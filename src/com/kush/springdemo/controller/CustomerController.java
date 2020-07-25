@@ -74,6 +74,8 @@ public class CustomerController {
 		// set customer as a model attribute to pre-populate the form
 		theModel.addAttribute("customer", theCustomer);
 		
+		System.out.println("/showFormForUpdate");
+		
 		// send over to our form		
 		return "customer-form";
 	}
